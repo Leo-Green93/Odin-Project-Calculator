@@ -17,14 +17,70 @@ button {
    background-color: white;
 }
 
-button:hover {
+.number:hover {
     background-color: lightgreen
+}
+
+.operator:hover {
+    background-color: gold
+}
+
+.decimal:hover {
+    background-color: turquoise;
+}
+
+.equal:hover {
+    background-color: turquoise;
 }
 
 .operator, .equal, .decimal {
     background-color: linen;
 }
 
+.clear:hover{
+    background-color: maroon;
+    color: white;
+}
+
 .clear {
+    border: 1px solid red;
     background-color: lightcoral;
+}
+
+.number {
+    border: 1px solid yellowgreen
+}
+
+.operator {
+    border: 1px solid goldenrod;
+}
+
+.decimal, .equal {
+    border: 1px solid skyblue;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen {
+    width: 275px;
+    border: 1px solid salmon; 
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
 }
