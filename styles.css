@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+   height: 75px;
+   width: 75px;
+   margin: 10px;
+   font-size: 30px; 
+   border-radius: 12px;
+   border: 2px solid lightgrey;
+   background-color: white;
+}
+
+button:hover {
+    background-color: lightgreen
+}
+
+.operator, .equal, .decimal {
+    background-color: linen;
+}
+
+.clear {
+    background-color: lightcoral;
+}
